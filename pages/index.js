@@ -1,15 +1,13 @@
 export default function index() {
     return (
-        <header className="header">
-            <h1 style={{ margin: 0 }}>
-                Altea
-            </h1>
-            <ul>
-                <li>Accueil</li>
-                <li>Projets</li>
-                <li>Contact</li>
-            </ul>
-        </header>
+        <>
+            
+            <main className="container">
+                <h1>Welcome on board</h1>
+            </main>
+
+            <footer className="container">© Altea</footer>
+        </>
     )
 }
 
